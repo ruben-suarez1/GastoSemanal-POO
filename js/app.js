@@ -144,7 +144,7 @@ let presupuesto;
 //funciones
 function preguntarPresupuesto() {
 
-    const presupuestoUsuario = prompt('¿ cual es ru presupuesto ?');
+    const presupuestoUsuario = prompt('¿ cual es tu presupuesto ?');
 
     if(presupuestoUsuario === '' || presupuestoUsuario === null || isNaN(presupuestoUsuario))
     {
